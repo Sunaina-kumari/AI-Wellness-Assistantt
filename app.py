@@ -667,8 +667,7 @@ def ask_ai(prompt):
         return result["choices"][0]["message"]["content"]
 
     else:
-    return f"AI response unavailable: {result}"
-
+        return f"AI response unavailable: {result}"
 
 # =========================================================
 # TITLE
