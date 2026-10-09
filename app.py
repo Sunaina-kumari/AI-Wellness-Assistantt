@@ -415,7 +415,7 @@ def create_risk_level(row):
         risk_score += 2
 
 
-    if "Torpid risk" in impacts:
+    if "torpid risk" in impacts:
 
         risk_score += 2
 
@@ -1210,7 +1210,7 @@ elif st.session_state.step == 7:
 
         "anxiety",
 
-        "Torpid risk"
+        "torpid risk"
     ]
 
 
