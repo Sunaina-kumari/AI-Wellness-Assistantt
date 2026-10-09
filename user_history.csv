@@ -1,0 +1,12 @@
+Date,Age,Screen_Time,Educational_Time,Recreational_Time,Gender,Primary_Device,Health_Impacts,Urban_or_Rural,Risk_Level
+2026-05-31 15:51:32.237807,12,4.0,2.0,2.0,male,smartphone,poor sleep,rural,moderate
+2026-06-01 00:44:47.166709,12,6.0,2.0,2.0,male,smartphone,none,urban,safe
+2026-06-01 12:04:15.596212,12,4.0,2.0,2.0,female,tablet,obesity risk,urban,moderate
+2026-06-01 15:58:12.349941,12,6.0,2.0,2.0,male,smartphone,none,rural,moderate
+2026-06-01 16:06:46.607825,17,2.0,1.0,1.0,male,smartphone,none,urban,safe
+2026-06-03 12:15:44.839194,14,6.0,4.0,2.0,male,smartphone,poor sleep,urban,moderate
+2026-06-04 12:03:33.939054,12,6.0,2.0,2.0,male,smartphone,none,urban,safe
+2026-06-04 12:09:34.876438,9,5.0,6.0,2.0,male,smartphone,eye strain,urban,moderate
+2026-07-24 14:01:41.282264,12,6.0,2.0,4.0,male,smartphone,none,urban,safe
+2026-07-24 14:09:43.015456,12,6.0,0.0,5.0,male,smartphone,poor sleep,urban,moderate
+2026-09-27 14:09:18.545400,18,6.0,2.0,4.0,female,smartphone,poor sleep,urban,moderate
