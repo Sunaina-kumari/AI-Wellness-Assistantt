@@ -281,8 +281,8 @@ li[role="option"]:hover {
 # OPENROUTER API
 # =========================================================
 
+OPENROUTER_API_KEY = ""
 
-OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
 
 # =========================================================
 # LOAD DATASET
