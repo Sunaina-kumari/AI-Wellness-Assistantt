@@ -154,28 +154,31 @@ label {
 }
 
 
-/* DROPDOWN MENU */
-div[data-baseweb="popover"],
-div[data-baseweb="popover"] > div {
+
+/* DROPDOWN MENU BACKGROUND */
+div[data-baseweb="popover"] {
     background-color: white !important;
 }
 
-/* DROPDOWN OPTIONS - BLACK TEXT */
-div[data-baseweb="popover"] li,
-div[data-baseweb="popover"] li *,
-ul[role="listbox"] li,
-ul[role="listbox"] li * {
-    color: black !important;
+/* FORCE DROPDOWN OPTION TEXT TO BLACK */
+div[data-baseweb="popover"] [role="option"],
+div[data-baseweb="popover"] [role="option"] *,
+ul[role="listbox"] [role="option"],
+ul[role="listbox"] [role="option"] * {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
     background-color: white !important;
-    font-weight: 600 !important;
+    opacity: 1 !important;
 }
 
-/* HOVER EFFECT */
-div[data-baseweb="popover"] li:hover,
-ul[role="listbox"] li:hover {
+/* HOVER AND SELECTED OPTIONS */
+div[data-baseweb="popover"] [role="option"]:hover,
+ul[role="listbox"] [role="option"]:hover {
     background-color: #dbeafe !important;
-    color: black !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
 }
+
 
 
             
