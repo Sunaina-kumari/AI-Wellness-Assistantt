@@ -153,33 +153,29 @@ label {
     color: black !important;
 }
 
-/* DROPDOWN MENU CONTAINER */
 
-div[data-baseweb="popover"] {
+/* DROPDOWN MENU */
+div[data-baseweb="popover"],
+div[data-baseweb="popover"] > div {
     background-color: white !important;
 }
 
-/* DROPDOWN OPTIONS */
-
-li[role="option"] {
+/* DROPDOWN OPTIONS - BLACK TEXT */
+div[data-baseweb="popover"] li,
+div[data-baseweb="popover"] li *,
+ul[role="listbox"] li,
+ul[role="listbox"] li * {
+    color: black !important;
     background-color: white !important;
-    color: black !important;
-    font-weight: bold !important;
+    font-weight: 600 !important;
 }
 
-/* OPTION TEXT */
-
-li[role="option"] * {
-    color: black !important;
-}
-
-/* HOVER */
-
-li[role="option"]:hover {
+/* HOVER EFFECT */
+div[data-baseweb="popover"] li:hover,
+ul[role="listbox"] li:hover {
     background-color: #dbeafe !important;
     color: black !important;
 }
-
 
 
             
