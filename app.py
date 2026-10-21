@@ -155,31 +155,38 @@ label {
 
 
 
-/* DROPDOWN MENU BACKGROUND */
-div[data-baseweb="popover"] {
-    background-color: white !important;
+
+/* SELECTBOX SELECTED VALUE */
+div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
 }
 
-/* FORCE DROPDOWN OPTION TEXT TO BLACK */
+/* DROPDOWN MENU BACKGROUND */
+div[data-baseweb="popover"],
+div[data-baseweb="popover"] ul,
+ul[role="listbox"] {
+    background-color: #ffffff !important;
+}
+
+/* DROPDOWN OPTION TEXT */
 div[data-baseweb="popover"] [role="option"],
 div[data-baseweb="popover"] [role="option"] *,
 ul[role="listbox"] [role="option"],
 ul[role="listbox"] [role="option"] * {
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
-    background-color: white !important;
     opacity: 1 !important;
 }
 
-/* HOVER AND SELECTED OPTIONS */
+/* OPTION HOVER */
 div[data-baseweb="popover"] [role="option"]:hover,
 ul[role="listbox"] [role="option"]:hover {
     background-color: #dbeafe !important;
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
 }
-
-
 
             
 /* BUTTON */
