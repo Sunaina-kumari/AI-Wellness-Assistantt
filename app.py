@@ -281,28 +281,7 @@ ul[role="listbox"] [role="option"]:hover {
 }
 
 
-/* STREAMLIT CLOUD — DROPDOWN VISIBILITY FIX */
-div[data-baseweb="popover"] *,
-div[data-baseweb="menu"] *,
-div[data-baseweb="menu"] li,
-ul[role="listbox"] *,
-ul[role="listbox"] li,
-li[role="option"],
-li[role="option"] * {
-    color: #000000 !important;
-    -webkit-text-fill-color: #000000 !important;
-    opacity: 1 !important;
-}
 
-div[data-baseweb="popover"],
-div[data-baseweb="menu"],
-ul[role="listbox"] {
-    background-color: #ffffff !important;
-}
-
-li[role="option"]:hover {
-    background-color: #dbeafe !important;
-}
 
 </style>
 
